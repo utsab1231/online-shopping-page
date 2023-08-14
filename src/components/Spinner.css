@@ -1,0 +1,13 @@
+.custom_loader {
+    margin-top: 170px;
+    margin-left:600px;
+    width:205px;
+    height:205px;
+    border-radius:50%;
+    
+    background: 
+      radial-gradient(farthest-side,#766DF4 95%,#0000) 50% 1px/12px 12px no-repeat,
+      radial-gradient(farthest-side,#0000 calc(100% - 14px),#E4E4ED 0);
+    animation:s9 2s infinite linear;
+  }
+  @keyframes s9 {to{transform: rotate(1turn)}}
